@@ -1,0 +1,195 @@
+/* ------------ tablet work start --------------- */
+@media (min-width:768px) and (max-width:1024px){
+    #page1{
+        min-height: auto;
+    }
+    #page1 .video-container{
+        height: auto;
+    }
+    #page2 .product{
+        flex-wrap: nowrap;
+    }
+    #page2{
+        min-height: auto;
+    }
+    #page2 .product .product-item{
+        width: 100%;
+        height: 500px;
+    }
+    #page2 .product .product-item img{
+        object-fit: contain;
+    }
+
+    #page4 .big-product .big-items img{
+        height: 330px;
+    }
+    .product .product-item .dets:hover .item-pro{
+        height: 430px;
+    }
+    .product .product-item .dets{
+        top: 10%;
+    }
+    .product .product-item .dets .item-content{
+        flex-wrap: wrap;
+    }
+    .product .product-item .dets .item-pro .link-item a{
+        font-size: 10px;
+    }
+    .product .product-item .dets .item-pro .link-item,
+    .product .product-item .dets .item-pro,
+    .product .product-item .dets{
+        height: 45px;
+        padding: 0 5px;
+    }
+    #page1 .video-container{
+        margin-top: 10px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .video-container #play-btn{
+        opacity: 1;
+        scale: 1;
+    }
+    #page2 .product .product-item{
+        width: 100%;
+        height: auto;
+    }
+    #page3 .left-text{
+        letter-spacing: 0px;
+    }
+    #page5{
+        flex-wrap: wrap;
+    }
+    #page5 .impact-text{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    #page5 .impact-text h4{
+        font-size: 20px;
+    }
+    #page5 .impact-text p{
+        font-size: 18px;
+    }
+    #page5 .impact-images{
+        width: 100%;
+    }
+    #page5 .impact-images img{
+        width: 100%;
+        height: 500px;
+    }
+     footer{
+        padding: 50px 20px 10px 20px;
+    }
+}
+
+
+
+/* ------------ tablet work end --------------- */
+
+
+/* ------------ Mobile work start --------------- */
+@media (max-width:767px) {
+    #page1,#page2,#page3,#page4,#page5{
+        min-height: auto;
+        padding: 0 20px;
+    }
+    #page1{
+        padding: 0 10px;
+        padding-top: 140px;
+        padding-bottom: 50px;
+    }
+    #page1 h1{
+        letter-spacing: -3px;
+        font-size: 15vw;
+    }
+    #page1 .video-container{
+        margin-top: 10px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .video-container #play-btn{
+        opacity: 1;
+        scale: 1;
+    }
+    #page2 .product .product-item{
+        width: 100%;
+        height: auto;
+    }
+    #page3{
+        flex-wrap: wrap;
+    }
+    #page3 .left-text{
+        font-size: 30px;
+        line-height: 1.2;
+        letter-spacing: 0px;
+    }
+    #page3 .right-text{
+        width: 100%;
+    }
+    #page3 .right-text p{
+        font-size: 18px;
+    }
+    #page4 .big-product .big-items img{
+        height: 100%;
+    }
+    #page3 .right-text a{
+        letter-spacing: 0px;
+    }
+    #page4{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .product .product-item .dets:hover .item-pro{
+        height: 285px;
+    }
+
+    #page5{
+        flex-wrap: wrap;
+    }
+    #page5 .impact-text{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    #page5 .impact-text h4{
+        font-size: 20px;
+    }
+    #page5 .impact-text p{
+        font-size: 18px;
+    }
+    #page5 .impact-images{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #page5 .impact-images img{
+        height: auto;
+    }
+    footer{
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 50px 20px 20px 20px;
+    }
+    footer .footer-left, footer .footer-right{
+        width: 100%;
+    }
+    footer .footer-left ul, footer .footer-right ul{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    footer .footer-middle,
+    footer .footer-middle svg{
+        width: 100%;
+    }
+    #nav{
+        padding: 20px 10px;
+    }
+    #nav .nav-part-2 ul{
+        display: none;
+    }
+
+}   
+/* ------------ Mobile work end --------------- */
